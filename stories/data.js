@@ -14,7 +14,7 @@ export const accentDataLight = {
 	accentMinimalColor: 'rgba(38, 224, 208, 0.15)',
 };
 
-const initialData = require('./dataInitial.js');
+const initialData = require('./dataInitial.js').default;
 
 export const locationData = initialData.locationData;
 export const loginData = initialData.loginData;
